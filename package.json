@@ -7,7 +7,7 @@
   "description": "Convert API descriptions between popular formats such as OpenAPI(fka Swagger), RAML, API Blueprint, WADL, etc.",
   "main": "index.js",
   "scripts": {
-    "browserify": "node node_modules/mkdirp/bin/cmd dist && browserify -p esmify -s APISpecConverter -o dist/api-spec-converter.js .",
+    "browserify": "node node_modules/mkdirp/bin/cmd dist && browserify -s APISpecConverter -o dist/api-spec-converter.js .",
     "test": "mocha && npm run browserify && karma start --single-run && git checkout -- dist"
   },
   "repository": {
@@ -60,8 +60,7 @@
     "composite-error": "^0.1.1",
     "deep-sort-object": "^1.0.2",
     "js-yaml": "^3.14.0",
-    "json-schema-faker": "0.5.3",
-    "jsonpath-plus": "^7.2.0",
+    "json-schema-faker": "0.5.0-rcv.46",
     "lodash": "^4.17.21",
     "lodash.clonedeep": "^4.5.0",
     "request": "^2.88.2",
@@ -78,7 +77,6 @@
     "babelify": "^7.3.0",
     "browserify": "^17.0.0",
     "chai": "^3.5.0",
-    "esmify": "^2.1.1",
     "karma": "^6.4.3",
     "karma-chai-plugins": "^0.7.0",
     "karma-chrome-launcher": "^2.2.0",
