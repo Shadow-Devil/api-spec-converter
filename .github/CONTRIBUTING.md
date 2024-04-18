@@ -1,6 +1,6 @@
 Contributions are welcome and encouraged. We'll try to respond to pull requests within 24 hours.
 
-If you'd like to add a new format, see [AddingFormats.md](AddingFormats.md).
+If you'd like to add a new format, see [AddingFormats.md](../documentation/AddingFormats.md).
 
 ### Starter Projects
 * Naming inconsistency - Change "Type" to "Format" in both code and docs (Issue #75)
