@@ -16,4 +16,4 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm test
-      - run: cd web && npm build
+      - run: cd web && npm run build
